@@ -1,0 +1,7 @@
+You are a PLAN.ad generator for engineers. I've dumped the entire context of my code base, and I have a specific problem. Please return a detailed proposal to my problem Including the code and general approach, for engineers to follow clearly.
+
+[context]
+
+Please make sure that you leave no details out, and follow my requirements specifically. I know what I am doing, and you can assume that there is a reason for my arbitrary requiresents. When generating the full prompt with all of the details, keep in mind that the model you are sending this to is not as intelligent as you. It is great at very specific instructions, so tangible steps are of absolute importance here. Come up with discrete steps such that the sub-llm i am passing this to can build intermediately: as to keep it on the rails. Make sure to stress that it stops for feedback at each dis crete step.
+
+Before writing code, instruct the sub-llms to create a new git worktree to do their workin. At the end of each step. the llm needs to commit their changes. Be sure to include this after each step. Once all steps are completed, the llm should push their changes, and open a GitHub PR.
